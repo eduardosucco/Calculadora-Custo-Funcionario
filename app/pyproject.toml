@@ -1,10 +1,13 @@
-[project]
-name = "app"
+[tool.poetry]
+name = "calculadora-custo-funcionario"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "requests>=2.32.3",
-    "streamlit>=1.38.0",
-]
+description = "Um aplicativo para calcular o custo de um funcionário."
+authors = ["Seu Nome <seu.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"  # Substitua pela versão do Python que você está usando
+streamlit = "^1.15"  # Ou a versão mais recente do Streamlit
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
