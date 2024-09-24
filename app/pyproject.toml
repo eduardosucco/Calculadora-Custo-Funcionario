@@ -5,7 +5,7 @@ description = "Um aplicativo para calcular o custo de um funcionário."
 authors = ["Seu Nome <seu.email@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"  # Substitua pela versão do Python que você está usando
+python = ">=3.8,<4.0"
 streamlit = "^1.15"  # Ou a versão mais recente do Streamlit
 
 [build-system]
