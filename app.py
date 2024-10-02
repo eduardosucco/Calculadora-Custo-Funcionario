@@ -41,8 +41,8 @@ if st.button('Calcular'):
     
     if incluir_vt:
         st.write(f'Vale Transporte (6%): R$ {vt:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.'))
-    else:
-        st.write('Vale Transporte: R$ 0,00')
+    # else:
+    #     st.write('Vale Transporte: R$ 0,00')
 
     st.write(f'Vale Refeição: R$ {vr:,.2f}'.replace(',', 'X').replace('.', ',').replace('X', '.'))
     
